@@ -1,0 +1,581 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+}
+
+
+
+.navbar{
+	list-style-type: none;
+  	margin: 0px;
+	width: 97%;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.li_navbar{
+  	padding: 8px 16px;
+	margin: 10px 15px;
+	float: left;
+	
+}
+
+.a_navbar{
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+	font-size: 20px;
+	text-shadow: 1px 1px 10px black;
+	
+
+}
+
+.li_navbar:hover{
+	background-color: #AA7AFF;
+	border-radius: 32px;
+}
+
+#header{
+	background-image: url(img/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg);
+	height: 100vh;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	position: relative;
+	margin-bottom: 1%;
+	
+}
+
+.align_home{
+	width: 100%;
+	height: 20vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.h_home{
+	text-align: center;
+	position: absolute;
+  	color: white;
+	font-weight: 600;
+
+}
+
+
+.button_home{
+		font-size: 15px;
+	text-decoration: none;
+	color: black;
+}
+
+
+
+/*  WORK PAGE STYLES*/
+
+.work_page{
+	width: 60%;
+	margin: 0 auto;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	padding-bottom: 30%;
+	padding-top: 2px;
+	
+	
+}
+.my_work1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#my_work2{
+	text-align: center;
+	margin-top: 1%;
+	border: 2px solid black;
+	width: 40%;
+	padding: 10px;
+	color: white;
+	background: #062845;
+	border-radius: 32px;
+	margin-top: 1%;
+	margin-bottom: 3%;
+}
+
+
+.projects{
+	width: 30%;
+	text-align: center;
+	border: 2px solid black;
+	font-size: 16px;
+	letter-spacing: 1.7px;
+	border-radius: 32px;
+	background-color: #42bbff;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	margin: 25px;
+	float: left;
+}
+
+.butoane1{
+	margin: 10px;
+}
+.butoane2{	
+	margin: 10px;
+}
+
+
+.butoane{
+	border: 1px solid black;
+	text-decoration: none;
+	background: #062845;
+	color: white;
+	padding: 3px 5px;
+	border-radius: 32px
+}
+
+.project_text{
+	margin: 10px
+}
+
+
+/*  ABOUT PAGE STYLES*/
+
+.about_page{
+	width: 60%;
+	margin: 0 auto;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	padding-bottom: 10px;
+	padding-top: 2px;
+	
+}
+
+.about1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#about2{
+	text-align: center;
+	margin-top: 1%;
+	border: 2px solid black;
+	width: 40%;
+	padding: 10px;
+	color: white;
+	background: #062845;
+	border-radius: 32px;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.align_img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.img_descriere{
+	background:  #062845;
+	width: 70%;
+	margin-bottom: 3%;
+	border-radius: 100px;
+	color: whitesmoke;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.profil_img{
+	width: 20%;
+	float: left;
+	border-radius: 50%;
+	margin: 25px;
+}
+
+.descriere{
+	font-size: 18px;
+	font-weight: 600;
+	text-indent: 6%;
+	letter-spacing: 1.7px;
+	padding: 10px;
+}
+
+.about_content{
+	clear: both;
+}
+
+.about_h2{
+	text-align: center;
+}
+
+.about{
+	width:20%;
+	border: 2px solid black;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 1.7px;
+	border-radius: 32px;
+	background-color: #42bbff;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	margin: 25px;
+	
+}
+
+/*     CONTACT PAGE STYLES */
+
+
+.contact_page{
+	width: 60%;
+	margin: 0 auto;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	padding-bottom: 1%;
+	padding-top: 2px;
+/*	MODIFICI PADDINGUL  PENTRU BACKGROUNDUL CU UMBRA sa fie mai mult in jos*/
+}
+
+.contact1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#contact2{
+	text-align: center;
+	margin-top: 1%;
+	border: 2px solid black;
+	width: 40%;
+	padding: 10px;
+	color: white;
+	background: #062845;
+	border-radius: 32px;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+
+.align_contact{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text_contact1{
+	background:  #062845;
+	width: 70%;
+	margin-bottom: 3%;
+	border-radius: 100px;
+	color: whitesmoke;
+}
+
+.text_contact2{
+	padding: 2px 15px;
+}
+
+.contact_social{
+	padding-left: 60px;
+}
+
+.img_width{
+	width: 6%;
+	float: left;
+	margin: 0px 15px 35px 15px;
+	
+}
+
+/*footer*/
+.footer1{
+	width: 100%;
+	height: 6vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer2{
+	text-align: center;
+	width: 60%;
+	border: 3px solid black;
+	background:#062845 ;
+	color: white;
+	border-radius: 42px;
+}
+
+/*   Sageata in sus*/
+
+.arrow1{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.arrow{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 35%;
+	margin-top: -35vh;
+	
+}
+.p_arrow{
+	font-size: 75px;
+	border: 3px solid #062845;
+	border-radius: 100px;
+	color: #062845;
+}
+
+/*   PHONE */
+
+
+@media screen and (max-width: 640px){
+	.navbar{
+	margin-left: -25px;
+}
+	.li_navbar{
+  	padding: 9px 2px;
+	
+}
+
+.a_navbar{
+	font-size: 20px;
+}
+
+
+#header{
+	height:500px;
+
+}
+
+
+.h_home{
+		margin-top:5%;
+		font-size: 12px;
+}
+
+
+.button_home{
+		font-size: 14px;
+}
+
+/*WORK PAGE*/
+.work_page{
+	width: 100%;
+	padding-bottom: 10vh;
+	
+	
+	
+}
+
+#my_work2{
+	width: 80%;
+	font-size: 17px;
+}
+
+.centrare_mobil{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+	
+.projects{
+	width: 60%;
+	font-size: 14px;
+	
+}
+/*  ABOUT PAGE STYLES*/
+
+.about_page{
+	width: 100%;
+}
+
+#about2{
+	width: 80%;
+	font-size: 17px;
+}
+
+.img_descriere{
+	width: 90%;
+	margin-bottom: 3%;
+	border-radius: 0;
+	margin: 10px;
+	
+}
+.profil_img{
+	width: 30%;
+}
+
+.descriere{
+	font-size: 14px;
+
+}
+
+
+
+.about{
+	width:30%;
+	font-size: 14px;
+	margin: 25px;
+}
+/*     CONTACT PAGE STYLES */
+
+
+.contact_page{
+	width: 100%;
+	padding-bottom: 3vh;
+}
+
+.text_contact1{
+	width: 90%;
+	border-radius: 50px;
+}
+#contact2{
+	width: 80%;
+	font-size: 17px;
+	margin-bottom: 10%;
+}
+
+.text_contact2{
+	padding: 2px 35px;
+}
+
+
+.img_width{
+	width: 20%;
+	
+}
+ 
+	.arrow{
+	width: 20%;	
+}
+
+	
+} 
+
+
+/*  Laptop*/
+
+@media (min-width:640px) and (max-width: 1200px){
+	.navbar{
+	margin-left: -25px;
+}
+	.li_navbar{
+  	padding: 9px 2px;
+	
+}
+
+.a_navbar{
+	font-size: 20px;
+}
+
+
+#header{
+	height:500px;
+
+}
+
+
+.h_home{
+		margin-top:5%;
+		font-size: 12px;
+}
+
+
+.button_home{
+		font-size: 14px;
+}
+
+/*WORK PAGE*/
+.work_page{
+	width: 75%;
+	padding-bottom: 1vh;
+	
+	
+	
+}
+
+#my_work2{
+	width: 50%;
+	font-size: 17px;
+}
+
+.centrare_mobil{
+	display: flex;
+	justify-content:flex-start;
+	align-items: center;
+}
+	
+.projects{
+	width: 30%;
+	font-size: 14px;
+	
+}
+/*  ABOUT PAGE STYLES*/
+
+.about_page{
+	width: 75%;
+}
+
+#about2{
+	width: 50%;
+	font-size: 17px;
+}
+
+.img_descriere{
+	width: 60%;
+	margin-bottom: 3%;
+	border-radius: 0;
+	margin: 10px;
+	
+}
+.profil_img{
+	width: 20%;
+}
+
+.descriere{
+	font-size: 14px;
+
+}
+
+
+
+.about{
+	width:20%;
+	font-size: 14px;
+	margin: 25px;
+}
+/*     CONTACT PAGE STYLES */
+
+
+.contact_page{
+	width: 75%;
+	padding-bottom: 3vh;
+}
+
+
+
+#contact2{
+	width: 50%;
+	font-size: 17px;
+	margin-bottom: 10%;
+}
+
+.text_contact2{
+	padding: 2px 35px;
+}
+
+
+.img_width{
+	width: 7%;
+	
+}
+ 
+	.arrow{
+	width: 20%;	
+}
+	
+
+
+.footer2{
+	width: 75%;
+	
+}
+
+
+
+}
